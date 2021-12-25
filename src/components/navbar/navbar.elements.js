@@ -217,7 +217,7 @@ export const NavLinks = styled(Link)`
   cursor: pointer;
   &:hover {
     transition: all 0.3s ease;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #065678;
   }
   @media screen and (max-width: 960px) {
     text-align: center;

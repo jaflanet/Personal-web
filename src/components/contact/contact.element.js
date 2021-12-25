@@ -18,7 +18,7 @@ export const ContactContent = styled.div`
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 2px;
+  padding-bottom: 2%;
   max-width: 1230px;
   display: flex;
   flex-direction: row;
@@ -41,17 +41,15 @@ export const ContactSectionHeaderText = styled.div`
   font-family: "Montserrat";
   font-size: 32px;
   line-height: 40px;
-  margin-left: auto;
-  margin-right: auto;
+ text-align:center;
   width: 100%;
   overflow: hidden;
-  margin: 0;
+  // background-color:blue;
 `;
 
 export const ContactHeader = styled.header`
   font-family: "Montserrat";
-  font-size: 48px;
-  text-align: center;
+  font-size: 38px;
   font-weight: bold;
 `;
 
@@ -72,7 +70,8 @@ export const ContactSectionLeft = styled.div`
   width: 48%;
   display: flex;
   float: left;
-  margin-top: 5%;
+  margin-left:2%;
+  // background-color:red;
   @media (max-width: 930px) {
     width: 100%;
     padding-left: 5%;
@@ -89,9 +88,19 @@ export const ContactSectionRight = styled.div`
   }
 `;
 
-export const ContactImage = styled.img`
+export const ContactImageContainer = styled.div`
+  width: 100%;
   margin: 0 auto;
-  margin-left: 30%;
+  align-items: center;
+  margin-top:2%;
+  // background: green;
+`;
+
+export const ContactImage = styled.img`
+width: 50%;
+margin-left: auto;
+  margin-right: auto;
+  display: block;
   @media (max-width: 930px) {
     width: 70%;
     margin-left: 10%;
@@ -111,6 +120,7 @@ export const ContacSectionText = styled.div`
 Font family: "Montserrat";
 font-size: 16px;
 line-height: 152%;
+text-align:center;
 Align: Justified;
 margin-top:5%;
 // top: 50%;
@@ -126,7 +136,6 @@ export const ContactSectionColumn = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2px;
-  margin-top: 15%;
   @media (max-width:930px) {
     width:100%;
     margin-bottom:5%;

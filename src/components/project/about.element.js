@@ -20,6 +20,7 @@ export const AboutContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2px;
+  margin-bottom:2%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

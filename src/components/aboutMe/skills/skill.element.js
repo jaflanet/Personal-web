@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const AboutSkillCard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100px;
-  height: 90px;
+  height: 100px;
   align: center;
   margin: 0 auto;
   padding: 1%;
@@ -19,32 +19,37 @@ export const AboutSkillCard = styled.div`
 `;
 
 export const AboutSkillCardTitle = styled.div`
-  margin-top: 5%;
+  margin-top: 10%;
   font-family: "Montserrat Regular";
   font-size: 10px;
-  margin-left: 20%;
+  text-align:center;
   text-transform: capitalize;
   align:center;
+  // background-color:red;
 `;
 
 
 export const AboutSkillCardImageContainer = styled.div`
   width: 100%;
   margin: 0 auto;
-  align: center;
+  align-items: center;
+  // background: green;
 `;
 
 export const AboutSkillCardContentContainer = styled.div`
-  // background: green;
+  // background: yellow;
   width: 100%;
-  margin: 0 auto;
-  height: 96%;
+  margin-top:7%;
+  height: 90%;
 `;
 
 export const AboutSkillCardImg = styled.img`
-  margin-left: 22%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   width: 50px;
   height: 50px;
   object-fit: cover;
   align:center;
+  // background: red;
 `;

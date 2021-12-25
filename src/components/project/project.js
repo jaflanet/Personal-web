@@ -22,7 +22,7 @@ const project = () => {
         <AboutContainer>
           <AboutContent>
             <AboutSectionHeader>
-              <AboutHeader>My Project</AboutHeader>
+              <AboutHeader>My Project</AboutHeader> <hr />
             </AboutSectionHeader>
             <AboutSection>
               <List />

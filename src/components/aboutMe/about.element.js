@@ -147,10 +147,10 @@ export const AboutHeader = styled.header`
 
 export const AboutImage1Container = styled.div`
   width: 70%;
-  position: relative;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2px;
+  display: block;
   @media (max-width: 960px) {
     margin-left: 20%;
   }

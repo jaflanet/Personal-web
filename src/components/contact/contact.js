@@ -6,13 +6,16 @@ import {
   ContactHeader,
   ContactSection,
   ContactSectionLeft,
+  ContactImageContainer,
   // ContactSectionRight,
-  // ContactImage,
+  ContactImage,
   // ContacSectionText,
   ContactSectionHeaderText,
   ContactSectionColumn,
   // ContactPageButton,
 } from "./contact.element";
+import smilePic from "../../assets/contact/smile.png";
+import ConList from "./contactList/contactList";
 
 const Contact = () => {
   return (
@@ -20,7 +23,7 @@ const Contact = () => {
       <ContactContainer id="contact">
         <ContactContent>
           <ContactSectionHeader>
-            <ContactHeader>Contact</ContactHeader>
+            <ContactHeader>Contact</ContactHeader> <hr />
           </ContactSectionHeader>
           <ContactSection>
             <ContactSectionLeft>
@@ -28,19 +31,13 @@ const Contact = () => {
                 <ContactSectionHeaderText>
                   Feel free to contact me
                 </ContactSectionHeaderText>
-                {/* <ContacSectionText>
-                  Got any questions? Kindly click the button below!
-                </ContacSectionText>
-                <ContactPageButton
-                  href="https://linktr.ee/uifashionweek21"
-                  target="_blank"
-                >
-                  Contact Us
-                </ContactPageButton> */}
+                <ContactImageContainer>
+                  <ContactImage src={smilePic} />
+                </ContactImageContainer>
               </ContactSectionColumn>
             </ContactSectionLeft>
             <ContactSectionLeft>
-              {/* <ContactImage src={image_1} /> */}
+              <ConList />
             </ContactSectionLeft>
           </ContactSection>
         </ContactContent>

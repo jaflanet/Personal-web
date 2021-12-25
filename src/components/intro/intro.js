@@ -1,25 +1,19 @@
 import React from "react";
-// import { init } from "ityped";
-// import { useEffect, useRef } from "react";
 import downarrow from "../../assets/intro/down.png";
 import foto from "../../assets/intro/foto.png";
 import {
   IntroContainer,
-  // IntroContainerLeft,
-  // IntroContainerRight,
   IntroContainerRightWrapper,
   IntroIMGContainer,
   IntroProfileIMG,
-  // IntroRightA,
   IntroRightArrow,
   IntroRightH1,
   IntroRightH2,
-  // IntroRightH3,
   IntroLinks,
   IntroContent,
   IntroSectionPart,
   IntroSectionPartHalf,
-  // IntroRightSpan,
+  IntroRightH12,
 } from "./intro.element";
 
 const intro = () => {
@@ -31,9 +25,9 @@ const intro = () => {
           <IntroSectionPart>
             <IntroSectionPartHalf>
               <IntroContainerRightWrapper>
-                <IntroRightH2>Hello I'm</IntroRightH2>
-                <IntroRightH1>Jonathan Aurelius</IntroRightH1>
-                know more about me
+                <IntroRightH1>Hello I'm</IntroRightH1>
+                <IntroRightH12>Jonathan Aurelius</IntroRightH12>
+                <IntroRightH2> know more about me </IntroRightH2>
                 <IntroLinks
                   activeClass="active"
                   to="aboutMe"

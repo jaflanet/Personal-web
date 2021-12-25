@@ -6,6 +6,7 @@ export const IntroLinks = styled(Link)`
   text-decoration: none;
   font-family :"Montserrat";
   cursor: pointer;
+  margin: 0 auto;
   // @media screen and (max-width: 960px) {
   //   text-align: center;
   //   padding: 2rem 0rem 0rem 0;
@@ -26,6 +27,7 @@ export const IntroContent = styled.div`
   margin-right: auto;
   text-align: left;
   font-family :"Montserrat";
+  // background-color:blue;
 `;
 
 export const IntroSectionPart = styled.div`
@@ -33,6 +35,7 @@ export const IntroSectionPart = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
+  // background-color:green;
   @media (max-width: 960px) {
     flex-direction: column;
     overflow-x: hidden;
@@ -93,10 +96,24 @@ export const IntroContainerRightWrapper = styled.div`
 export const IntroRightH1 = styled.h1`
 font-family :"Montserrat";
   font-size: 60px;
+  text-align:center;
+  // background-color: yellow;
+  margin-top:0;
 `;
+
+export const IntroRightH12 = styled.h1`
+font-family :"Montserrat";
+color: #065678;
+  font-size: 60px;
+  text-align:center;
+  // background-color: yellow;
+  margin-top:0;
+`;
+
 export const IntroRightH2 = styled.h2`
 font-family :"Montserrat";
-  font-size: 35px;
+  font-size: 15px;
+  text-align:center;
 `;
 
 export const IntroRightH3 = styled.h3`
@@ -114,7 +131,7 @@ export const IntroRightA = styled.a`
 `;
 
 export const IntroRightArrow = styled.img`
-  width: 30px;
+  width: 40px;
   animation: arrowBlink 2s infinite;
   @keyframes arrowBlink {
     100% {
@@ -124,10 +141,9 @@ export const IntroRightArrow = styled.img`
 `;
 
 export const IntroSectionPartHalf = styled.div`
-  width: 48%;
+  width: 50%;
   display: flex;
   float: left;
-  margin-top: 5%;
   // background-color: red;
   @media (max-width: 960px) {
     width: 100%;
