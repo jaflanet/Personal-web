@@ -59,7 +59,7 @@ export const FooterLink = styled.a`
 `;
 
 export const FooterText = styled.div`
-font-family :"Metropolis"
+font-family :"Montserrat"
 font-szie :16px;
 @media (max-width:960px) {
   text-align:center;

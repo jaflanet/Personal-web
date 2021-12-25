@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 export const IntroLinks = styled(Link)`
   color: #000000;
   text-decoration: none;
+  font-family :"Montserrat";
   cursor: pointer;
   // @media screen and (max-width: 960px) {
   //   text-align: center;
@@ -24,6 +25,7 @@ export const IntroContent = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  font-family :"Montserrat";
 `;
 
 export const IntroSectionPart = styled.div`
@@ -38,7 +40,7 @@ export const IntroSectionPart = styled.div`
 `;
 
 export const IntroContainer = styled.div`
-  background-color: #FFF3E6;
+  background-color: #fff3e6;
   width: 100%;
   height: 100vh;
   margin-left: auto;
@@ -89,13 +91,16 @@ export const IntroContainerRightWrapper = styled.div`
 `;
 
 export const IntroRightH1 = styled.h1`
+font-family :"Montserrat";
   font-size: 60px;
 `;
 export const IntroRightH2 = styled.h2`
+font-family :"Montserrat";
   font-size: 35px;
 `;
 
 export const IntroRightH3 = styled.h3`
+font-family :"Montserrat";
   font-size: 30px;
 `;
 export const IntroRightSpan = styled.span`
