@@ -7,11 +7,11 @@ import {
   ContactSection,
   ContactSectionLeft,
   // ContactSectionRight,
-  ContactImage,
-  ContacSectionText,
+  // ContactImage,
+  // ContacSectionText,
   ContactSectionHeaderText,
   ContactSectionColumn,
-  ContactPageButton,
+  // ContactPageButton,
 } from "./contact.element";
 
 const Contact = () => {

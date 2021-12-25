@@ -7,13 +7,13 @@ import Home from "./pages/home/home";
 import ScrollToTop from "./components/scrollToTop";
 import Portofolio from "./components/project/project"
 import AboutMe from "./components/aboutMe/aboutMe"
-import Intro from "./components/intro/intro"
+// import Intro from "./components/intro/intro"
 import "./App.css"
-import { useState } from "react";
-import {
-  MainApp,
-  MainSection,
-} from "./App.element";
+// import { useState } from "react";
+// import {
+//   MainApp,
+//   MainSection,
+// } from "./App.element";
 // import Menu from "./components/menu/Menu";
 
 function App() {

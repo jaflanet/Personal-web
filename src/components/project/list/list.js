@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import {
   ProjectListCard,
   ProjectListCardContentContainer,
@@ -11,12 +11,12 @@ import {
   ProjectListCardContainer,
 } from "./list.element";
 import findmates from "../../../assets/project/findmates.png";
-import puzzle from "../../../assets/project/15Puzzle.png";
-import ctask from "../../../assets/project/ctask.png";
+// import puzzle from "../../../assets/project/15Puzzle.png";
+// import ctask from "../../../assets/project/ctask.png";
 import masakin from "../../../assets/project/masakin.png";
 import sfu from "../../../assets/project/S4U.png";
-import sekolah from "../../../assets/project/Sekolahku.png";
-import snake from "../../../assets/project/snake.png";
+// import sekolah from "../../../assets/project/Sekolahku.png";
+// import snake from "../../../assets/project/snake.png";
 import uifw from "../../../assets/project/uifw.png";
 
 const List = () => {
