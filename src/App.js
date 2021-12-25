@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import {Navbar} from "./components";
+import {Navbar,Footer} from "./components";
 // import Home from "./pages/home/home";
 // import NotFound from "./pages/notFound/notFound.js";
 // import Register from "./pages/register/register.js";
@@ -26,6 +26,7 @@ function App() {
           <Route exact path="/about" component={AboutMe} />
           <Route exact path="/portofolio" component={Portofolio } />
         </Switch>
+        <Footer />
       </Router>
   );
 }

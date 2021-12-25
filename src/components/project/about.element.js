@@ -120,7 +120,7 @@ export const AboutSectionPartHalf = styled.div`
   }
 `;
 export const AboutSectionPartHalfHeader = styled.div`
-  font-family: "Metropolis Bold";
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
   font-size: 32px;

@@ -1,5 +1,5 @@
 import React from "react";
-import Skill from "./skills/skill"
+import Skill from "./skills/skill";
 import {
   AboutContainer,
   AboutSectionHeader,
@@ -17,7 +17,8 @@ import {
   AboutSectionRowColumn,
 } from "./about.element";
 
-import image_test from "../../assets/about/Logo_Univ.png";
+import image_univ from "../../assets/about/Logo_Univ.png";
+import image_sekolah from "../../assets/about/Logo_ipeka.png";
 
 const aboutMe = () => {
   return (
@@ -30,57 +31,60 @@ const aboutMe = () => {
               <hr />
             </AboutSectionHeader>
             <AboutSection>
-              <AboutSectionPart>
-                <AboutSectionPartColumn>
-                  <AboutSectionPartHalfHeader>
-                    Education Background
-                  </AboutSectionPartHalfHeader>
-                  <AboutSectionPartHalfContent>
-                    <AboutSectionRow>
-                      <AboutSectionRowColumn>
-                        <AboutImage1Container>
-                          <AboutImage2
-                            src={image_test}
-                            alt="vision"
-                            loading="Lazy"
-                          />
-                        </AboutImage1Container>
-                        Universitas Indonesia
-                      </AboutSectionRowColumn>
-                    </AboutSectionRow>
-                    <AboutSectionRow>
-                      <AboutSectionRowColumn>
-                        <AboutImage1Container>
-                          <AboutImage2
-                            src={image_test}
-                            alt="vision"
-                            loading="Lazy"
-                          />
-                        </AboutImage1Container>
-                        Universitas Indonesia
-                      </AboutSectionRowColumn>
-                    </AboutSectionRow>
-                  </AboutSectionPartHalfContent>
-                </AboutSectionPartColumn>
-              </AboutSectionPart>
-
-              <AboutSectionPart>
-                <AboutSectionPartColumn>
-                  <AboutSectionPartHalfHeader>Skill</AboutSectionPartHalfHeader>
-                  <AboutSectionPartHalfContent>
-                  <Skill />
-                  </AboutSectionPartHalfContent>
-                </AboutSectionPartColumn>
-              </AboutSectionPart>
-
-              <AboutSectionPart>
-                <AboutSectionPartColumn>
-                  <AboutSectionPartHalfHeader>Bio</AboutSectionPartHalfHeader>
-                  <AboutSectionPartHalfContent>
-                  <Skill />
-                  </AboutSectionPartHalfContent>
-                </AboutSectionPartColumn>
-              </AboutSectionPart>
+              <AboutSectionRow>
+                <AboutSectionPart>
+                  <AboutSectionPartColumn>
+                    <AboutSectionPartHalfHeader>Bio</AboutSectionPartHalfHeader>
+                    <AboutSectionPartHalfContent>
+                      I am a 20-year-old computer engineer major interest in
+                      forntend engineering, android/ios dev, and cyber security.
+                    </AboutSectionPartHalfContent>
+                  </AboutSectionPartColumn>
+                  <AboutSectionPartColumn>
+                    <AboutSectionPartHalfHeader>
+                      Education Background
+                    </AboutSectionPartHalfHeader>
+                    <AboutSectionPartHalfContent>
+                      <AboutSectionRow>
+                        <AboutSectionRowColumn>
+                          <AboutImage1Container>
+                            <AboutImage2
+                              src={image_univ}
+                              alt="vision"
+                              loading="Lazy"
+                            />
+                          </AboutImage1Container>
+                          Universitas Indonesia
+                        </AboutSectionRowColumn>
+                      </AboutSectionRow>
+                      <AboutSectionRow>
+                        <AboutSectionRowColumn>
+                          <AboutImage1Container>
+                            <AboutImage2
+                              src={image_sekolah}
+                              alt="vision"
+                              loading="Lazy"
+                            />
+                          </AboutImage1Container>
+                          IPEKA Puri Senior HighSchool
+                        </AboutSectionRowColumn>
+                      </AboutSectionRow>
+                    </AboutSectionPartHalfContent>
+                  </AboutSectionPartColumn>
+                </AboutSectionPart>
+              </AboutSectionRow>
+              <AboutSectionRow>
+                <AboutSectionPart>
+                  <AboutSectionPartColumn>
+                    <AboutSectionPartHalfHeader>
+                      Skill
+                    </AboutSectionPartHalfHeader>
+                    <AboutSectionPartHalfContent>
+                      <Skill />
+                    </AboutSectionPartHalfContent>
+                  </AboutSectionPartColumn>
+                </AboutSectionPart>
+              </AboutSectionRow>
             </AboutSection>
           </AboutContent>
         </AboutContainer>

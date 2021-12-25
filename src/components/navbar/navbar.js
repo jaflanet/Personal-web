@@ -57,7 +57,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                   >
-                    About Me
+                    Home
                   </NavLinks>
                 ) : (
                   <NavLinksScroll
@@ -67,7 +67,31 @@ const Navbar = () => {
                     click={click}
                     to="/"
                   >
-                    About Me
+                    Home
+                  </NavLinksScroll>
+                )}
+              </NavItem>
+              <NavItem>
+                {location.pathname === "/" ? (
+                  <NavLinks
+                    activeClass="active"
+                    to="aboutMe"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    About
+                  </NavLinks>
+                ) : (
+                  <NavLinksScroll
+                    onClick={() => {
+                      handleClick() && setNavbar(false);
+                    }}
+                    click={click}
+                    to="/"
+                  >
+                    About
                   </NavLinksScroll>
                 )}
               </NavItem>
@@ -92,30 +116,6 @@ const Navbar = () => {
                     to="/"
                   >
                     Project
-                  </NavLinksScroll>
-                )}
-              </NavItem>
-              <NavItem>
-                {location.pathname === "/" ? (
-                  <NavLinks
-                    activeClass="active"
-                    to="blog"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Blog
-                  </NavLinks>
-                ) : (
-                  <NavLinksScroll
-                    onClick={() => {
-                      handleClick() && setNavbar(false);
-                    }}
-                    click={click}
-                    to="/"
-                  >
-                    Blog
                   </NavLinksScroll>
                 )}
               </NavItem>

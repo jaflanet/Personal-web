@@ -103,10 +103,11 @@ export const AboutSectionPartColumn = styled.div`
 `;
 
 export const AboutSectionRow = styled.div`
-  width: 50%;
+  width: 48%;
   display: flex;
   float: left;
   margin-bottom:2%;
+  margin-right:2%;
 `;
 
 export const AboutSectionPartHalf = styled.div`
@@ -114,23 +115,27 @@ export const AboutSectionPartHalf = styled.div`
   display: flex;
   float: left;
   margin-top: 5%;
+  margin-bottom:3%;
   // background-color: red;
   @media (max-width: 960px) {
     width: 100%;
+    
   }
 `;
 export const AboutSectionPartHalfHeader = styled.div`
-  font-family: "Metropolis Bold";
+  font-family: "Montserrat" ;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   // top: 50%;
   // left: 50%;
   margin: 0 auto;
+  margin-bottom:4%;
 `;
 
 export const AboutSectionPartHalfContent = styled.div`
   padding-bottom: 2%;
+  margin-bottom:3%;
 `;
 
 export const AboutHeader = styled.header`
@@ -139,14 +144,6 @@ export const AboutHeader = styled.header`
 `;
 
 
-export const AboutImage1 = styled.img`
-  width: 200px;
-  height: 250px;
-  border-radius: 0 200px 0 0;
-  -moz-border-radius: 0 200px 0 0;
-  -webkit-border-radius: 0 200px 0 0;
-  transform: rotate(-5.19deg);
-`;
 
 export const AboutImage1Container = styled.div`
   width: 70%;
@@ -168,8 +165,6 @@ export const AboutSectionRowColumn = styled.div`
 
 export const AboutImage2 = styled.img`
   width: 50%;
-  border-radius: 80px;
-  border: 4px;
 `;
 
 

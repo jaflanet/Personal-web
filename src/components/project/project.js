@@ -13,6 +13,7 @@ import {
   AboutSectionPartColumn,
   AboutContainerBg,
 } from "./about.element";
+import List from "./list/list"
 
 const project = () => {
   return (
@@ -24,36 +25,7 @@ const project = () => {
               <AboutHeader>My Project</AboutHeader>
             </AboutSectionHeader>
             <AboutSection>
-              <AboutSectionPart>
-                <AboutSectionPartHalf>
-                  <AboutImage1Container>
-                    {/* <AboutImage1 src={image_test} alt="vision" loading="Lazy" /> */}
-                  </AboutImage1Container>
-                </AboutSectionPartHalf>
-                <AboutSectionPartHalf>
-                  <AboutSectionPartColumn>
-                    <AboutSectionPartHalfHeader>
-                      Project 1
-                    </AboutSectionPartHalfHeader>
-                  
-                  </AboutSectionPartColumn>
-                </AboutSectionPartHalf>
-              </AboutSectionPart>
-              <AboutSectionPart2>
-                <AboutSectionPartHalf>
-                  <AboutSectionPartColumn>
-                    <AboutSectionPartHalfHeader>
-                      Project 2
-                    </AboutSectionPartHalfHeader>
-                    
-                  </AboutSectionPartColumn>
-                </AboutSectionPartHalf>
-                <AboutSectionPartHalf>
-                  <AboutImage1Container>
-                    {/* <AboutImage2 src={image_test} alt="vision" loading="Lazy" /> */}
-                  </AboutImage1Container>
-                </AboutSectionPartHalf>
-              </AboutSectionPart2>
+              <List />
             </AboutSection>
           </AboutContent>
         </AboutContainer>
