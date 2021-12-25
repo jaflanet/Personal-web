@@ -5,7 +5,7 @@ export const ProjectListCardContainer = styled.div`
   margin: 0 auto;
   margin-bottom: 2%;
   // background: yellow;
-  align:center;
+  align: center;
 `;
 
 export const ProjectListCard = styled.div`
@@ -16,8 +16,8 @@ export const ProjectListCard = styled.div`
   margin: 0 auto;
   padding: 2%;
   margin-bottom: 2%;
-  margin-left:3.5%;
-  margin-right:3.5%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
   float: left;
   background: rgba(255, 255, 255, 0.21);
   backdrop-filter: blur(76.15px);
@@ -32,7 +32,7 @@ export const ProjectListCardTitle = styled.div`
   font-weight: bold;
   font-size: 16px;
   /* or 32px */
-  text-align:center;
+  text-align: center;
   text-transform: capitalize;
 `;
 
@@ -41,7 +41,7 @@ export const ProjectListCardDesc = styled.div`
   font-family: "Montserrat";
   font-size: 12px;
   /* or 32px */
-  text-align:center;
+  text-align: center;
 `;
 
 export const ProjectListCardImageContainer = styled.div`
@@ -55,7 +55,7 @@ export const ProjectListCardContentContainer = styled.div`
   // background: green;
   width: 95%;
   margin: 0 auto;
-  margin-top:-2%;
+  margin-top: -2%;
 `;
 
 export const ProjectListCardImg = styled.img`
@@ -68,8 +68,14 @@ export const ProjectListCardImg = styled.img`
 export const ShowButton = styled.button`
   margin: 0 auto;
   display: block;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  text-decoration-line: underline;
+  margin-bottom:3%;
 `;
 
 export const ShowButtonContainer = styled.div`
   align-items: center;
+  margin: 0 auto;
 `;
