@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { Element } from "react-scroll";
 
+// import { fadeInUp } from 'react-animations';
+
+// const slideUp = keyframes`${fadeInUp}`;
+
 export const AboutContainerBg = styled(Element)`
   background-color: #fff3e6;
   width: 100%;
@@ -47,7 +51,7 @@ export const AboutSectionHeader = styled.div`
   margin: 0;
   padding-top: 2%;
   @media (max-width: 960px) {
-   text-align:center;
+    text-align: center;
   }
 `;
 
@@ -70,7 +74,7 @@ export const AboutSectionPart = styled.div`
   width: 100%;
   overflow: hidden;
   margin: 0;
-  margin-bottom:2%;
+  margin-bottom: 2%;
   padding-top: 2px;
   padding-left: 2px;
   display: flex;
@@ -105,24 +109,24 @@ export const AboutSectionPartColumn = styled.div`
   margin-right: auto;
   padding-bottom: 2px;
   @media (max-width: 960px) {
-    text-align:center;
+    text-align: center;
     width: 100%;
-    margin-bottom:3%;
-   }
+    margin-bottom: 3%;
+  }
 `;
 
 export const AboutSectionRow = styled.div`
   width: 48%;
   display: flex;
   float: left;
-  margin-bottom:2%;
-  margin-right:2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
   // background-color: red;
   @media (max-width: 960px) {
-    text-align:center;
+    text-align: center;
     width: 100%;
-    margin-bottom:3%;
-   }
+    margin-bottom: 3%;
+  }
 `;
 
 export const AboutSectionPartHalf = styled.div`
@@ -130,35 +134,47 @@ export const AboutSectionPartHalf = styled.div`
   display: flex;
   float: left;
   margin-top: 5%;
-  margin-bottom:3%;
+  margin-bottom: 3%;
   // background-color: red;
   @media (max-width: 960px) {
     width: 100%;
-    
   }
 `;
 export const AboutSectionPartHalfHeader = styled.div`
-  font-family: "Montserrat" ;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   // top: 50%;
   // left: 50%;
   margin: 0 auto;
-  margin-bottom:4%;
+  margin-bottom: 4%;
+`;
+
+export const AboutSectionPartHalfHeader2 = styled.div`
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  // top: 50%;
+  // left: 50%;
+  margin: 0 auto;
+  margin-bottom: 4%;
+  margin-left: 15%;
+  @media (max-width: 960px) {
+    margin-left: 0%;
+  }
 `;
 
 export const AboutSectionPartHalfContent = styled.div`
   padding-bottom: 2%;
-  margin-bottom:3%;
+  margin-bottom: 3%;
 `;
 
 export const AboutHeader = styled.header`
   font-size: 38px;
   font-weight: bold;
 `;
-
-
 
 export const AboutImage1Container = styled.div`
   width: 70%;
@@ -167,7 +183,7 @@ export const AboutImage1Container = styled.div`
   padding-bottom: 2px;
   display: block;
   @media (max-width: 960px) {
-  margin-bottom: 2%;
+    margin-bottom: 2%;
   }
 `;
 
@@ -178,17 +194,9 @@ export const AboutSectionRowColumn = styled.div`
   padding-bottom: 2px;
   @media (max-width: 960px) {
     margin-bottom: 2%;
-    }
+  }
 `;
 
 export const AboutImage2 = styled.img`
   width: 50%;
 `;
-
-
-
-
-
-
-
-

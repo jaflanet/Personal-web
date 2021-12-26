@@ -1,10 +1,15 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { Link } from "react-scroll";
+import { fadeInLeft,fadeInRight } from 'react-animations';
+
+const slideLeft = keyframes`${fadeInLeft}`;
+const slideRight= keyframes`${fadeInRight}`;
+ 
 
 export const IntroLinks = styled(Link)`
   color: #000000;
   text-decoration: none;
-  font-family :"Montserrat";
+  font-family: "Montserrat";
   cursor: pointer;
   margin: 0 auto;
   // @media screen and (max-width: 960px) {
@@ -26,7 +31,7 @@ export const IntroContent = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  font-family :"Montserrat";
+  font-family: "Montserrat";
   // background-color:blue;
 `;
 
@@ -74,6 +79,7 @@ export const IntroIMGContainer = styled.div`
   align-items: flex-end;
   justify-content: center;
   float: right;
+  animation: 1s ${slideRight};
 `;
 export const IntroProfileIMG = styled.img`
   height: 100%;
@@ -88,6 +94,7 @@ export const IntroContainerRightWrapper = styled.div`
   width: 90%;
   height: 100%;
   padding-left: 50px;
+  animation: 1s ${slideLeft};
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,33 +106,34 @@ export const IntroContainerRightWrapper = styled.div`
 `;
 
 export const IntroRightH1 = styled.h1`
-  font-family :"Montserrat";
+  font-family: "Montserrat";
   font-size: 60px;
-  text-align:center;
+  text-align: center;
   // background-color: yellow;
-  margin-top:0;
+  margin-top: 0;
+ 
   @media (max-width: 960px) {
-    margin:0 auto;
+    margin: 0 auto;
   }
 `;
 
 export const IntroRightH12 = styled.h1`
-font-family :"Montserrat";
-color: #065678;
+  font-family: "Montserrat";
+  color: #065678;
   font-size: 60px;
-  text-align:center;
+  text-align: center;
   // background-color: yellow;
-  margin-top:0;
+  margin-top: 0;
 `;
 
 export const IntroRightH2 = styled.h2`
-font-family :"Montserrat";
+  font-family: "Montserrat";
   font-size: 15px;
-  text-align:center;
+  text-align: center;
 `;
 
 export const IntroRightH3 = styled.h3`
-font-family :"Montserrat";
+  font-family: "Montserrat";
   font-size: 30px;
 `;
 export const IntroRightSpan = styled.span`
@@ -152,6 +160,7 @@ export const IntroSectionPartHalf = styled.div`
   width: 50%;
   display: flex;
   float: left;
+
   // background-color: red;
   @media (max-width: 960px) {
     width: 100%;

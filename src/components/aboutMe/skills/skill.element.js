@@ -1,6 +1,17 @@
 import styled from "styled-components";
 // import { Element } from "react-scroll";
 
+export const AboutSkillCardContainer = styled.div`
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  margin-left:10%;
+  // background-color: red;
+  align: center;
+  @media (max-width: 960px) {
+    padding: 2%;
+    }
+`;
 export const AboutSkillCard = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100px;
@@ -13,11 +24,14 @@ export const AboutSkillCard = styled.div`
   backdrop-filter: blur(76.15px);
   border-radius: 19px;
   // background: blue;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  margin-right: 2%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 5%;
+  margin-left: 5%;
+  &:hover {
+    transform: scale(1.2);
+  }
   @media (max-width: 960px) {
-    margin-left: 3%;
     }
 `;
 

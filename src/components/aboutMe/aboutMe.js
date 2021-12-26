@@ -9,6 +9,7 @@ import {
   AboutContent,
   AboutImage1Container,
   AboutSectionPartHalfHeader,
+  AboutSectionPartHalfHeader2,
   AboutSectionPartHalfContent,
   AboutSectionPartColumn,
   AboutContainerBg,
@@ -78,9 +79,9 @@ const aboutMe = () => {
               <AboutSectionRow>
                 <AboutSectionPart>
                   <AboutSectionPartColumn>
-                    <AboutSectionPartHalfHeader>
+                    <AboutSectionPartHalfHeader2>
                       Skill
-                    </AboutSectionPartHalfHeader>
+                    </AboutSectionPartHalfHeader2>
                     <AboutSectionPartHalfContent>
                       <Skill />
                     </AboutSectionPartHalfContent>
