@@ -16,6 +16,9 @@ export const AboutSkillCard = styled.div`
   margin-top: 1%;
   margin-bottom: 1%;
   margin-right: 2%;
+  @media (max-width: 960px) {
+    margin-left: 3%;
+    }
 `;
 
 export const AboutSkillCardTitle = styled.div`

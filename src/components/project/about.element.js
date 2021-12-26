@@ -47,6 +47,9 @@ export const AboutSectionHeader = styled.div`
   overflow: hidden;
   margin: 0;
   padding-top: 2%;
+  @media (max-width: 960px) {
+    text-align:center;
+    }
 `;
 
 export const AboutSection = styled.div`

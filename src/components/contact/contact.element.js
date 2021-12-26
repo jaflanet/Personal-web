@@ -24,6 +24,7 @@ export const ContactContent = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   align: center;
+  
 `;
 
 export const ContactSectionHeader = styled.div`
@@ -35,6 +36,10 @@ export const ContactSectionHeader = styled.div`
   overflow: hidden;
   padding: 1%;
   margin: 0;
+  @media (max-width: 930px) {
+    text-align:center;
+  }
+  
 `;
 
 export const ContactSectionHeaderText = styled.div`
@@ -45,6 +50,9 @@ export const ContactSectionHeaderText = styled.div`
   width: 100%;
   overflow: hidden;
   // background-color:blue;
+  @media (max-width: 930px) {
+    // flex-direction: column-reverse;
+  }
 `;
 
 export const ContactHeader = styled.header`
@@ -63,6 +71,7 @@ export const ContactSection = styled.div`
   flex-wrap: wrap;
   @media (max-width: 930px) {
     flex-direction: column-reverse;
+    //  background-color:red;
   }
 `;
 
@@ -74,7 +83,7 @@ export const ContactSectionLeft = styled.div`
   // background-color:red;
   @media (max-width: 930px) {
     width: 100%;
-    padding-left: 5%;
+    margin-left:0%;
   }
 `;
 export const ContactSectionRight = styled.div`
@@ -103,7 +112,6 @@ margin-left: auto;
   display: block;
   @media (max-width: 930px) {
     width: 70%;
-    margin-left: 10%;
   }
 `;
 export const ContacSectionHeader = styled.div`

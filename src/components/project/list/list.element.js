@@ -6,6 +6,9 @@ export const ProjectListCardContainer = styled.div`
   margin-bottom: 2%;
   // background: yellow;
   align: center;
+  @media (max-width: 960px) {
+    width: 100%;
+    }
 `;
 
 export const ProjectListCard = styled.div`
@@ -24,6 +27,11 @@ export const ProjectListCard = styled.div`
   border-radius: 19px;
   // background: blue;
   margin-top: 1%;
+  @media (max-width: 960px) {
+    width: 90%;
+    margin-left: 3%;
+  margin-right: auto;
+    }
 `;
 
 export const ProjectListCardTitle = styled.div`
@@ -49,6 +57,7 @@ export const ProjectListCardImageContainer = styled.div`
   margin: 0 auto;
   margin-top: 4%;
   border-radius: 19px;
+  
 `;
 
 export const ProjectListCardContentContainer = styled.div`
@@ -63,6 +72,13 @@ export const ProjectListCardImg = styled.img`
   height: 250px;
   object-fit: cover;
   border-radius: 19px;
+  @media (max-width: 960px) {
+    width: 97%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
 `;
 
 export const ShowButton = styled.button`

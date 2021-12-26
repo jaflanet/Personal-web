@@ -91,14 +91,22 @@ export const IntroContainerRightWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  // background-color:blue;
+  @media (max-width: 960px) {
+    width: 100%;
+    padding-left: 0px;
+  }
 `;
 
 export const IntroRightH1 = styled.h1`
-font-family :"Montserrat";
+  font-family :"Montserrat";
   font-size: 60px;
   text-align:center;
   // background-color: yellow;
   margin-top:0;
+  @media (max-width: 960px) {
+    margin:0 auto;
+  }
 `;
 
 export const IntroRightH12 = styled.h1`

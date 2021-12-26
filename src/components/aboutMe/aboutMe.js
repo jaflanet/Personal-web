@@ -31,13 +31,14 @@ const aboutMe = () => {
               <hr />
             </AboutSectionHeader>
             <AboutSection>
+
               <AboutSectionRow>
                 <AboutSectionPart>
                   <AboutSectionPartColumn>
                     <AboutSectionPartHalfHeader>Bio</AboutSectionPartHalfHeader>
                     <AboutSectionPartHalfContent>
                       I am a 20-year-old computer engineer major interest in
-                      forntend engineering, android/ios dev, and cyber security.
+                      frontend engineering, android/ios dev, and cyber security.
                     </AboutSectionPartHalfContent>
                   </AboutSectionPartColumn>
                   <AboutSectionPartColumn>
@@ -73,6 +74,7 @@ const aboutMe = () => {
                   </AboutSectionPartColumn>
                 </AboutSectionPart>
               </AboutSectionRow>
+
               <AboutSectionRow>
                 <AboutSectionPart>
                   <AboutSectionPartColumn>

@@ -5,9 +5,9 @@ export const ContactCardContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2px;
-  @media (max-width:930px) {
-    width:100%;
-    margin-bottom:5%;
+  @media (max-width: 930px) {
+    width: 100%;
+    margin-bottom: 5%;
   }
 `;
 
@@ -24,6 +24,9 @@ export const ContactCard = styled.div`
   // background: blue;
   margin-top: 10%;
   margin-bottom: 10%;
+  @media (max-width: 930px) {
+    width: 80%;
+  }
 `;
 
 export const ContactCardRow = styled.div`
@@ -32,33 +35,40 @@ export const ContactCardRow = styled.div`
   padding-right: 10%;
   // background-color:pink;
   @media (max-width: 930px) {
-    width: 100%;
-    padding-left: 5%;
+    padding-right: 2%;
   }
 `;
 
 export const ContactCardTitle = styled.div`
   font-family: "Montserrat";
   font-size: 14px;
-  text-align:center;
-  align:center;
+  text-align: center;
+  align: center;
   margin-top: 5%;
   // background-color:red;
+  @media (max-width: 930px) {
+    // padding-right: 2%;
+    margin-top: 6%;
+    font-size: 12px;
+  }
 `;
-
 
 export const ContactCardImageContainer = styled.div`
   width: 100%;
   margin: 0 auto;
   align-items: center;
   // background: green;
+
 `;
 
 export const ContactCardContentContainer = styled.div`
   // background: yellow;
-  padding-left:10%;
+  padding-left: 10%;
   width: 100%;
   height: 90%;
+  @media (max-width: 930px) {
+    padding-left: 5%;
+  }
 `;
 
 export const ContactCardImg = styled.img`
@@ -68,18 +78,21 @@ export const ContactCardImg = styled.img`
   width: 40px;
   height: 40px;
   object-fit: cover;
-  align:center;
+  align: center;
   // background: red;
+  @media (max-width: 930px) {
+    // width:95%;
+  }
 `;
 
 export const ContactPageButton = styled.a`
-font-style: inherit;
-    color: inherit;
-    background-color: transparent;
-    font-size: inherit;
-    text-decoration: none;
-    font-variant: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-    font-family: inherit;
+  font-style: inherit;
+  color: inherit;
+  background-color: transparent;
+  font-size: inherit;
+  text-decoration: none;
+  font-variant: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-family: inherit;
 `;
