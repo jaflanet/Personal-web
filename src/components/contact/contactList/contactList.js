@@ -20,7 +20,6 @@ const ContactList = () => {
         <ContactPageButton href="https://mail.google.com/" target="_blank">
           <ContactCard>
             <ContactCardContentContainer>
-              {" "}
               <ContactCardRow>
                 <ContactCardImageContainer>
                   <ContactCardImg src={email} alt="vision" loading="Lazy" />
@@ -36,7 +35,6 @@ const ContactList = () => {
         <ContactPageButton href="https://github.com/jaflanet" target="_blank">
           <ContactCard>
             <ContactCardContentContainer>
-              {" "}
               <ContactCardRow>
                 <ContactCardImageContainer>
                   <ContactCardImg src={github} alt="vision" loading="Lazy" />
@@ -55,7 +53,6 @@ const ContactList = () => {
         >
           <ContactCard>
             <ContactCardContentContainer>
-              {" "}
               <ContactCardRow>
                 <ContactCardImageContainer>
                   <ContactCardImg src={linkedin} alt="vision" loading="Lazy" />
@@ -63,7 +60,6 @@ const ContactList = () => {
               </ContactCardRow>
               <ContactCardRow>
                 <ContactCardTitle>
-                  {" "}
                   linkedin.com/in/jonathan-faren-95a337140
                 </ContactCardTitle>
               </ContactCardRow>

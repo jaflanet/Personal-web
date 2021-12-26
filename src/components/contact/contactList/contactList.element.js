@@ -5,6 +5,7 @@ export const ContactCardContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2px;
+  position: relative;
   @media (max-width: 930px) {
     width: 100%;
     margin-bottom: 5%;
@@ -44,12 +45,17 @@ export const ContactCardTitle = styled.div`
   font-size: 14px;
   text-align: center;
   align: center;
-  margin-top: 5%;
+  margin: 0;
+  margin-left:2%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   // background-color:red;
   @media (max-width: 930px) {
     // padding-right: 2%;
-    margin-top: 6%;
-    font-size: 12px;
+    // margin: 0 auto;
+    font-size: 10px;
   }
 `;
 
@@ -68,6 +74,7 @@ export const ContactCardContentContainer = styled.div`
   height: 90%;
   @media (max-width: 930px) {
     padding-left: 5%;
+    width: 90%;
   }
 `;
 
