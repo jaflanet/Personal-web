@@ -9,6 +9,7 @@ import {
   ShowButton,
   ShowButtonContainer,
   ProjectListCardContainer,
+  ProjectLink,
 } from "./list.element";
 import findmates from "../../../assets/project/findmates.png";
 import puzzle from "../../../assets/project/15Puzzle.png";
@@ -27,7 +28,12 @@ const List = () => {
         <ProjectListCard>
           <ProjectListCardContentContainer>
             <ProjectListCardImageContainer>
-              <ProjectListCardTitle> uifashionweek.com </ProjectListCardTitle>
+              <ProjectLink
+                href="https://github.com/jaflanet/uifashionweek"
+                target="_blank"
+              >
+                <ProjectListCardTitle> uifashionweek.com </ProjectListCardTitle>
+              </ProjectLink>
               <ProjectListCardImg src={uifw} alt="vision" loading="Lazy" />
             </ProjectListCardImageContainer>
             <ProjectListCardDesc>

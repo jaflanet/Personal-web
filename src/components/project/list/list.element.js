@@ -8,7 +8,7 @@ export const ProjectListCardContainer = styled.div`
   align: center;
   @media (max-width: 960px) {
     width: 100%;
-    }
+  }
 `;
 
 export const ProjectListCard = styled.div`
@@ -30,8 +30,8 @@ export const ProjectListCard = styled.div`
   @media (max-width: 960px) {
     width: 90%;
     margin-left: 3%;
-  margin-right: auto;
-    }
+    margin-right: auto;
+  }
 `;
 
 export const ProjectListCardTitle = styled.div`
@@ -42,6 +42,10 @@ export const ProjectListCardTitle = styled.div`
   /* or 32px */
   text-align: center;
   text-transform: capitalize;
+  &:hover {
+    transform: scale(1.1);
+    font-color: #e9cf48;
+  }
 `;
 
 export const ProjectListCardDesc = styled.div`
@@ -57,7 +61,6 @@ export const ProjectListCardImageContainer = styled.div`
   margin: 0 auto;
   margin-top: 4%;
   border-radius: 19px;
-  
 `;
 
 export const ProjectListCardContentContainer = styled.div`
@@ -75,10 +78,9 @@ export const ProjectListCardImg = styled.img`
   @media (max-width: 960px) {
     width: 97%;
     display: block;
-    margin-left:auto;
-    margin-right:auto;
-    }
-
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;
 
 export const ShowButton = styled.button`
@@ -88,10 +90,22 @@ export const ShowButton = styled.button`
   background: transparent;
   font-size: 20px;
   text-decoration-line: underline;
-  margin-bottom:3%;
+  margin-bottom: 3%;
 `;
 
 export const ShowButtonContainer = styled.div`
   align-items: center;
   margin: 0 auto;
+`;
+
+export const ProjectLink = styled.a`
+  font-style: inherit;
+  color: inherit;
+  background-color: transparent;
+  font-size: inherit;
+  text-decoration: none;
+  font-variant: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-family: inherit;
 `;

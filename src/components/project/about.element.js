@@ -182,4 +182,3 @@ export const AboutImage2 = styled.img`
 
 
 
-
