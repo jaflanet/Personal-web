@@ -47,7 +47,12 @@ const List = () => {
         <ProjectListCard>
           <ProjectListCardContentContainer>
             <ProjectListCardImageContainer>
-              <ProjectListCardTitle> Masak.in </ProjectListCardTitle>
+              <ProjectLink
+                href="https://github.com/jaflanet/masakin_app"
+                target="_blank"
+              >
+                <ProjectListCardTitle> Masak.in </ProjectListCardTitle>
+              </ProjectLink>
               <ProjectListCardImg src={masakin} alt="vision" loading="Lazy" />
             </ProjectListCardImageContainer>
             <ProjectListCardDesc>
@@ -61,7 +66,12 @@ const List = () => {
         <ProjectListCard>
           <ProjectListCardContentContainer>
             <ProjectListCardImageContainer>
-              <ProjectListCardTitle> Song 4 U </ProjectListCardTitle>
+              <ProjectLink
+                href="https://github.com/jaflanet/CRUD-Project"
+                target="_blank"
+              >
+                <ProjectListCardTitle> Song 4 U </ProjectListCardTitle>
+              </ProjectLink>
               <ProjectListCardImg src={sfu} alt="vision" loading="Lazy" />
             </ProjectListCardImageContainer>
             <ProjectListCardDesc>
@@ -75,7 +85,12 @@ const List = () => {
         <ProjectListCard>
           <ProjectListCardContentContainer>
             <ProjectListCardImageContainer>
-              <ProjectListCardTitle> Findmates.me </ProjectListCardTitle>
+              <ProjectLink
+                href="https://github.com/jaflanet/Proyek_uas_sbd_kelompok2A"
+                target="_blank"
+              >
+                <ProjectListCardTitle> Findmates.me </ProjectListCardTitle>
+              </ProjectLink>
               <ProjectListCardImg src={findmates} alt="vision" loading="Lazy" />
             </ProjectListCardImageContainer>
             <ProjectListCardDesc>
@@ -91,7 +106,12 @@ const List = () => {
             <ProjectListCard>
               <ProjectListCardContentContainer>
                 <ProjectListCardImageContainer>
-                  <ProjectListCardTitle> Sekolahku </ProjectListCardTitle>
+                  <ProjectLink
+                    href="https://github.com/jaflanet/prototype-sekolahku"
+                    target="_blank"
+                  >
+                    <ProjectListCardTitle> Sekolahku </ProjectListCardTitle>
+                  </ProjectLink>
                   <ProjectListCardImg
                     src={sekolah}
                     alt="vision"
@@ -109,7 +129,12 @@ const List = () => {
             <ProjectListCard>
               <ProjectListCardContentContainer>
                 <ProjectListCardImageContainer>
-                  <ProjectListCardTitle> Snake game</ProjectListCardTitle>
+                  <ProjectLink
+                    href="https://github.com/jaflanet/snake-game"
+                    target="_blank"
+                  >
+                    <ProjectListCardTitle> Snake game</ProjectListCardTitle>
+                  </ProjectLink>
                   <ProjectListCardImg src={snake} alt="vision" loading="Lazy" />
                 </ProjectListCardImageContainer>
                 <ProjectListCardDesc>
@@ -122,7 +147,15 @@ const List = () => {
             <ProjectListCard>
               <ProjectListCardContentContainer>
                 <ProjectListCardImageContainer>
-                  <ProjectListCardTitle> 15 puzzle game </ProjectListCardTitle>
+                  <ProjectLink
+                    href="https://github.com/jaflanet/15-Puzzle-Game---Proglan-UTS"
+                    target="_blank"
+                  >
+                    <ProjectListCardTitle>
+                      {" "}
+                      15 puzzle game{" "}
+                    </ProjectListCardTitle>
+                  </ProjectLink>
                   <ProjectListCardImg
                     src={puzzle}
                     alt="vision"
@@ -140,10 +173,14 @@ const List = () => {
             <ProjectListCard>
               <ProjectListCardContentContainer>
                 <ProjectListCardImageContainer>
-                  <ProjectListCardTitle>
-                    {" "}
-                    Simple C program{" "}
-                  </ProjectListCardTitle>
+                  <ProjectLink
+                    href="https://github.com/jaflanet/C-Task"
+                    target="_blank"
+                  >
+                    <ProjectListCardTitle>
+                      Simple C program
+                    </ProjectListCardTitle>
+                  </ProjectLink>
                   <ProjectListCardImg src={ctask} alt="vision" loading="Lazy" />
                 </ProjectListCardImageContainer>
                 <ProjectListCardDesc>
