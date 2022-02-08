@@ -29,7 +29,7 @@ const ContactList = () => {
                 </ContactCardImageContainer>
               </ContactCardRow>
               <ContactCardRow>
-                <ContactCardTitle> Jonathanfaren@gmail.com</ContactCardTitle>
+                <ContactCardTitle>Jonathanfaren@gmail.com</ContactCardTitle>
               </ContactCardRow>
             </ContactCardContentContainer>
           </ContactCard>

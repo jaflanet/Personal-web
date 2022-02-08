@@ -197,6 +197,22 @@ export const AboutSectionRowColumn = styled.div`
   }
 `;
 
+export const AboutDownloadButton = styled.button`
+  margin-left: 5px;
+  margin-right: auto;
+  font-family: "Montserrat Regular";
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align:center;
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  &:hover {
+    transform: scale(1.05);
+  }
+`;
+
 export const AboutImage2 = styled.img`
   width: 50%;
 `;

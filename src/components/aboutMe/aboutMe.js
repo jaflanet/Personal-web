@@ -16,10 +16,14 @@ import {
   AboutImage2,
   AboutSectionRow,
   AboutSectionRowColumn,
+  AboutDownloadButton,
 } from "./about.element";
-
+import cvFile from "../../assets/about/CV_Jonathan_Aurelius_Faren.pdf";
+import portoFile from "../../assets/about/portofolio_jonathan_aurelius.pdf";
 import image_univ from "../../assets/about/Logo_Univ.png";
 import image_sekolah from "../../assets/about/Logo_ipeka.png";
+import porto_icon from "../../assets/about/Porto_icon.png";
+import cv_icon from "../../assets/about/CV_icon.png";
 
 const aboutMe = () => {
   return (
@@ -32,7 +36,6 @@ const aboutMe = () => {
               <hr />
             </AboutSectionHeader>
             <AboutSection>
-
               <AboutSectionRow>
                 <AboutSectionPart>
                   <AboutSectionPartColumn>
@@ -69,6 +72,46 @@ const aboutMe = () => {
                             />
                           </AboutImage1Container>
                           IPEKA Puri Senior HighSchool
+                        </AboutSectionRowColumn>
+                      </AboutSectionRow>
+                    </AboutSectionPartHalfContent>
+                  </AboutSectionPartColumn>
+                  <AboutSectionPartColumn>
+                    <AboutSectionPartHalfHeader>
+                      CV {"&"} Portofolio
+                    </AboutSectionPartHalfHeader>
+                    <AboutSectionPartHalfContent>
+                      <AboutSectionRow>
+                        <AboutSectionRowColumn>
+                          <AboutImage1Container>
+                            <AboutImage2
+                              src={cv_icon}
+                              alt="vision"
+                              loading="Lazy"
+                            />
+                          </AboutImage1Container>
+                          <div>
+                          <a href={cvFile} download="cv">
+                            <AboutDownloadButton>
+                              Download Resume
+                            </AboutDownloadButton>
+                          </a></div>
+                        </AboutSectionRowColumn>
+                      </AboutSectionRow>
+                      <AboutSectionRow>
+                        <AboutSectionRowColumn>
+                          <AboutImage1Container>
+                            <AboutImage2
+                              src={porto_icon}
+                              alt="vision"
+                              loading="Lazy"
+                            />
+                          </AboutImage1Container>
+                          <a href={portoFile} download="portofolio">
+                            <AboutDownloadButton>
+                              Download Portofolio
+                            </AboutDownloadButton>
+                          </a>
                         </AboutSectionRowColumn>
                       </AboutSectionRow>
                     </AboutSectionPartHalfContent>
