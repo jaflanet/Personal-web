@@ -17,7 +17,10 @@ const ContactList = () => {
   return (
     <>
       <ContactCardContainer>
-        <ContactPageButton href="https://mail.google.com/" target="_blank">
+        <ContactPageButton
+          href="mailto:jonathanfaren@gmail.com"
+          target="_blank"
+        >
           <ContactCard>
             <ContactCardContentContainer>
               <ContactCardRow>

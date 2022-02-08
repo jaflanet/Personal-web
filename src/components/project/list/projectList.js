@@ -33,7 +33,7 @@ export const projectList = [
     gitLink: "https://github.com/jaflanet/Proyek_uas_sbd_kelompok2A",
   },
   {
-    title: "Sekolahku ",
+    title: "Sekolahku",
     image: sekolah,
     desc: "Website prototpye for online academy lecture build with HTML and CSS",
     gitLink: "https://github.com/jaflanet/prototype-sekolahku",
