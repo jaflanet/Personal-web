@@ -5,7 +5,7 @@ import NextJs from "../../../assets/Icon/nextjs-icon.png";
 import CSSIco from "../../../assets/Icon/css-icon.png";
 import HTMLIco from "../../../assets/Icon/html-icon.png";
 import Reactico from "../../../assets/Icon/react-icon.png";
-import SQL from "../../../assets/Icon/sql-icon.png";
+import SQLico from "../../../assets/Icon/sql-icon.png";
 import psIco from "../../../assets/Icon/ps-icon.png";
 import aiIco from "../../../assets/Icon/ai-icon.png";
 import netIco from "../../../assets/Icon/net-icon.png";
@@ -44,7 +44,7 @@ export const SkillList = [
     },
     {
         title:"SQL",
-        icon:SQL,
+        icon:SQLico,
     },
     {
         title:"Networking",
