@@ -6,8 +6,15 @@ import sfu from "../../../assets/project/S4U.png";
 import sekolah from "../../../assets/project/Sekolahku.png";
 import snake from "../../../assets/project/snake.png";
 import uifw from "../../../assets/project/uifw.png";
+import afair2 from "../../../assets/project/afair2.png"
 
 export const projectList = [
+  {
+    title: "afairui.com",
+    image: afair2,
+    desc: " Online website about architecture department at Universitas Indonesia event , virtual online art exhibition",
+    gitLink: "https://github.com/jaflanet/afair-exhibition",
+  },
   {
     title: "uifashionweek.com",
     image: uifw,

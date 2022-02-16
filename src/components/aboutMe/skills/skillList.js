@@ -14,60 +14,60 @@ import ae from "../../../assets/Icon/ae-icon.png";
 import figma from "../../../assets/Icon/figma-icon.png";
 
 export const SkillList = [
-    {
-        title:"C Programming Language",
-        icon:C_ico,
-    },
-    {
-        title:"Flutter",
-        icon:Flutter ,
-    },
-    {
-        title:"Java",
-        icon:Java,
-    },
-    {
-        title:"Next JS",
-        icon:NextJs,
-    },
-    {
-        title:"CSS",
-        icon:CSSIco,
-    },
-    {
-        title:"HTML",
-        icon:HTMLIco ,
-    },
-    {
-        title:"React.js",
-        icon:Reactico,
-    },
-    {
-        title:"SQL",
-        icon:SQLico,
-    },
-    {
-        title:"Networking",
-        icon:netIco,
-    },
-    {
-        title:"Adobe Photoshop",
-        icon:psIco,
-    },
-    {
-        title:"Adobe Illustrator",
-        icon:aiIco,
-    },
-    {
-        title:"Adobe Premiere Pro",
-        icon:premiere,
-    },
-    {
-        title:"Adobe After Effect",
-        icon:ae,
-    },
-    {
-        title:"Figma",
-        icon:figma,
-    },
+  {
+    title: "C Programming Language",
+    icon: C_ico,
+  },
+  {
+    title: "Flutter",
+    icon: Flutter,
+  },
+  {
+    title: "Java",
+    icon: Java,
+  },
+  {
+    title: "Next JS",
+    icon: NextJs,
+  },
+  {
+    title: "CSS",
+    icon: CSSIco,
+  },
+  {
+    title: "HTML",
+    icon: HTMLIco,
+  },
+  {
+    title: "React.js",
+    icon: Reactico,
+  },
+  {
+    title: "SQL",
+    icon: SQLico,
+  },
+  {
+    title: "Networking",
+    icon: netIco,
+  },
+  {
+    title: "Adobe Photoshop",
+    icon: psIco,
+  },
+  {
+    title: "Adobe Illustrator",
+    icon: aiIco,
+  },
+  {
+    title: "Adobe Premiere Pro",
+    icon: premiere,
+  },
+  {
+    title: "Adobe After Effect",
+    icon: ae,
+  },
+  {
+    title: "Figma",
+    icon: figma,
+  },
 ];
